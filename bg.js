@@ -37,7 +37,7 @@ function createGrid() {
   const numRows = Math.floor(Math.random() * (maxRows - minRows + 1)) + minRows;
 
   // Define the gap size between cells
-const cellGap = 1;
+const cellGap = 5;
 
 // Calculate the width and height of each cell, including the gap
 const cellWidth = Math.floor((windowWidth - (cellGap * (numCols - 1))) / numCols);
